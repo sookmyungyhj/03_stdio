@@ -7,11 +7,11 @@ int main(void) {
 	char c;
 	int i;
 	
-	printf("input a number :");
+	printf("enter the character : ");
 	scanf("%c", &c);
 	
-	i = c - '0';
-	printf("The input number is %i\n",i);
+	i = c + 1;
+	printf("The next character of %c (%i) is %c (%i)\n",c,c,i,i);
 	
 	return 0;
 }
